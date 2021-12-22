@@ -1,0 +1,203 @@
+[
+    {
+        "__last_update": "2020-04-02 21:47:52", 
+        "access_token": false, 
+        "access_url": "/my/orders/141476", 
+        "access_warning": "", 
+        "activity_date_deadline": false, 
+        "activity_ids": [], 
+        "activity_state": false, 
+        "activity_summary": false, 
+        "activity_type_id": false, 
+        "activity_user_id": false, 
+        "amount_by_group": [
+            [
+                "IVA 16% ", 
+                139.49, 
+                871.8000000000001, 
+                "$ 139.49", 
+                "$ 871.80", 
+                1
+            ]
+        ], 
+        "amount_delivery": 60.29, 
+        "amount_tax": 139.49, 
+        "amount_total": 1011.29, 
+        "amount_undiscounted": 871.8000000000001, 
+        "amount_untaxed": 871.8, 
+        "analytic_account_id": false, 
+        "authorized_transaction_ids": [], 
+        "available_carrier_ids": [
+            1, 
+            2, 
+            3, 
+            4, 
+            5, 
+            6, 
+            7, 
+            12, 
+            13
+        ], 
+        "campaign_id": false, 
+        "carrier_id": [
+            2, 
+            "FedEx"
+        ], 
+        "cart_quantity": 1, 
+        "cart_recovery_email_sent": false, 
+        "client_order_ref": "Jose Fajardo", 
+        "combo": false, 
+        "combo_detail": "", 
+        "comments": "dropshipping/Club_Premier_Kmp_Payment", 
+        "commitment_date": "2020-04-02 19:52:57", 
+        "company_id": [
+            1, 
+            "SOMOS REYES SA DE CV"
+        ], 
+        "confirmation_date": "2020-04-01 20:25:33", 
+        "correo_marketplace": "", 
+        "create_date": "2020-04-02 20:12:15", 
+        "create_uid": [
+            6, 
+            "Moises Santiago"
+        ], 
+        "currency_id": [
+            33, 
+            "MXN"
+        ], 
+        "currency_rate": 1.0, 
+        "date_created": "2020-04-02 02:25:48", 
+        "date_order": "2020-04-02 20:12:15", 
+        "delivery_count": 0, 
+        "delivery_message": false, 
+        "delivery_price": 86.21, 
+        "delivery_rating_success": true, 
+        "display_name": "SO141489", 
+        "dsp_etiqueta_meli": "Sin Etiqueta", 
+        "dsp_marketplace_order_id": "904824672", 
+        "effective_date": false, 
+        "etiqueta_meli": "", 
+        "expected_date": "2020-04-02 22:04:23", 
+        "expense_count": 0, 
+        "expense_ids": [], 
+        "field_name": false, 
+        "fiscal_position_id": false, 
+        "has_delivery": true, 
+        "id": 141476, 
+        "imprimio_etiqueta_meli": false, 
+        "incoterm": false, 
+        "invoice_count": 0, 
+        "invoice_ids": [], 
+        "invoice_shipping_on_delivery": false, 
+        "invoice_status": "no", 
+        "is_abandoned_cart": false, 
+        "is_expired": false, 
+        "l10n_mx_edi_payment_method_id": [
+            6, 
+            "Dinero Electr\u00f3nico"
+        ], 
+        "logistic": false, 
+        "marketplace": "LINIO", 
+        "marketplace_order_id": "904824672", 
+        "medium_id": false, 
+        "message_attachment_count": 0, 
+        "message_channel_ids": [], 
+        "message_follower_ids": [
+            763980
+        ], 
+        "message_has_error": false, 
+        "message_has_error_counter": 0, 
+        "message_ids": [
+            2207901, 
+            2207898, 
+            2207897
+        ], 
+        "message_is_follower": true, 
+        "message_main_attachment_id": false, 
+        "message_needaction": false, 
+        "message_needaction_counter": 0, 
+        "message_partner_ids": [
+            7
+        ], 
+        "message_unread": false, 
+        "message_unread_counter": 0, 
+        "name": "SO141489", 
+        "note": "", 
+        "only_services": false, 
+        "opportunity_id": false, 
+        "order_line": [
+            178760, 
+            178762
+        ], 
+        "order_status": "paid", 
+        "origin": false, 
+        "partner_id": [
+            25054, 
+            "LINIO PUBLICO EN GENERAL"
+        ], 
+        "partner_invoice_id": [
+            25054, 
+            "LINIO PUBLICO EN GENERAL"
+        ], 
+        "partner_shipping_id": [
+            25054, 
+            "LINIO PUBLICO EN GENERAL"
+        ], 
+        "payment_term_id": [
+            1, 
+            "Pago inmediato"
+        ], 
+        "picking_ids": [], 
+        "picking_policy": "one", 
+        "pricelist_id": [
+            1, 
+            "Tarifa p\u00fablica (MXN)"
+        ], 
+        "procurement_group_id": false, 
+        "purchase_order_count": 0, 
+        "receiver_address": "Melchor Ocampo 18A, Las Palomas, Tlalnepantla de Baz, (entre calle Luis Espinosa y calle Francisco Villa), Tlalnepantla De Baz, Mexico, Tlalnepantla De Baz, Mexico, 54100", 
+        "reference": false, 
+        "remaining_validity_days": 0, 
+        "require_payment": true, 
+        "require_signature": false, 
+        "rma_count": 0, 
+        "sale_order_option_ids": [], 
+        "sale_order_template_id": false, 
+        "seller_marketplace": "SOMOS-REYES LINIO", 
+        "signature": false, 
+        "signed_by": false, 
+        "source_id": false, 
+        "state": "draft", 
+        "tag_ids": [], 
+        "team_id": [
+            11, 
+            "Ventas Linio"
+        ], 
+        "tracking_number": "Fedex/8147183", 
+        "transaction_ids": [], 
+        "type_name": "Presupuesto", 
+        "user_id": [
+            1, 
+            "OdooBot"
+        ], 
+        "validity_date": false, 
+        "verified": false, 
+        "warehouse_id": [
+            1, 
+            "Almac\u00e9n General"
+        ], 
+        "warning_stock": false, 
+        "website_id": false, 
+        "website_message_ids": [], 
+        "website_order_line": [
+            178760
+        ], 
+        "write_date": "2020-04-02 21:47:52", 
+        "write_uid": [
+            2, 
+            "Administrator"
+        ], 
+        "x_studio_field_St7C2": false, 
+        "x_studio_field_n6a10": false
+    }
+]

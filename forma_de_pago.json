@@ -1,0 +1,407 @@
+[
+    {
+        "id": 34451, 
+        "l10n_mx_edi_payment_method_id": [
+            21, 
+            "Por definir"
+        ]
+    }
+]
+[
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "01", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Efectivo", 
+        "id": 1, 
+        "name": "Efectivo", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "02", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Cheque nominativo", 
+        "id": 2, 
+        "name": "Cheque nominativo", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "03", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Transferencia electr\u00f3nica de fondos", 
+        "id": 3, 
+        "name": "Transferencia electr\u00f3nica de fondos", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "04", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Tarjeta de Cr\u00e9dito", 
+        "id": 4, 
+        "name": "Tarjeta de Cr\u00e9dito", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "05", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Monedero Electr\u00f3nico", 
+        "id": 5, 
+        "name": "Monedero Electr\u00f3nico", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "06", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Dinero Electr\u00f3nico", 
+        "id": 6, 
+        "name": "Dinero Electr\u00f3nico", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "08", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Vales de despensa", 
+        "id": 7, 
+        "name": "Vales de despensa", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "12", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Daci\u00f3n en pago", 
+        "id": 8, 
+        "name": "Daci\u00f3n en pago", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "13", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Pago por subrogaci\u00f3n", 
+        "id": 9, 
+        "name": "Pago por subrogaci\u00f3n", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "14", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Pago por consignaci\u00f3n", 
+        "id": 10, 
+        "name": "Pago por consignaci\u00f3n", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "15", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Condonaci\u00f3n", 
+        "id": 11, 
+        "name": "Condonaci\u00f3n", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "17", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Compensaci\u00f3n", 
+        "id": 12, 
+        "name": "Compensaci\u00f3n", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "23", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Novaci\u00f3n", 
+        "id": 13, 
+        "name": "Novaci\u00f3n", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "24", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Confusi\u00f3n", 
+        "id": 14, 
+        "name": "Confusi\u00f3n", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "25", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Remisi\u00f3n de deuda", 
+        "id": 15, 
+        "name": "Remisi\u00f3n de deuda", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "26", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Prescripci\u00f3n o caducidad", 
+        "id": 16, 
+        "name": "Prescripci\u00f3n o caducidad", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "27", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "A satisfacci\u00f3n del acreedor", 
+        "id": 17, 
+        "name": "A satisfacci\u00f3n del acreedor", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "28", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Tarjeta de D\u00e9bito", 
+        "id": 18, 
+        "name": "Tarjeta de D\u00e9bito", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "29", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Tarjeta de Servicio", 
+        "id": 19, 
+        "name": "Tarjeta de Servicio", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "30", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Aplicaci\u00f3n de anticipos", 
+        "id": 20, 
+        "name": "Aplicaci\u00f3n de anticipos", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "99", 
+        "create_date": "2019-01-04 01:08:24", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Por definir", 
+        "id": 21, 
+        "name": "Por definir", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }, 
+    {
+        "__last_update": "2019-02-01 17:26:42", 
+        "active": true, 
+        "code": "31", 
+        "create_date": "2019-02-01 17:26:42", 
+        "create_uid": [
+            1, 
+            "OdooBot"
+        ], 
+        "display_name": "Intermediario pagos", 
+        "id": 22, 
+        "name": "Intermediario pagos", 
+        "write_date": "2019-02-01 17:26:42", 
+        "write_uid": [
+            1, 
+            "OdooBot"
+        ]
+    }
+]

@@ -1,0 +1,1120 @@
+{'access_token': 'APP_USR-5703097592380294-050709-f7803abcab9398394b6efc7970ca0b3d-25523702', 'token_type': 'bearer', 'expires_in': 21600, 'scope': 'offline_access read write', 'user_id': 25523702, 'refresh_token': 'TG-5cd18f305846320006a11d24-25523702'}
+True
+APP_USR-5703097592380294-050709-f7803abcab9398394b6efc7970ca0b3d-25523702
+{
+    "available_filters": [
+        {
+            "id": "order.status",
+            "name": "Order Status",
+            "type": "text",
+            "values": [
+                {
+                    "id": "paid",
+                    "name": "Order Paid",
+                    "results": 1
+                },
+                {
+                    "id": "confirmed",
+                    "name": "Order Confirmed",
+                    "results": 0
+                },
+                {
+                    "id": "payment_in_process",
+                    "name": "Payment in Process",
+                    "results": 0
+                },
+                {
+                    "id": "payment_required",
+                    "name": "Payment Required",
+                    "results": 0
+                },
+                {
+                    "id": "cancelled",
+                    "name": "Order Cancelled",
+                    "results": 0
+                },
+                {
+                    "id": "invalid",
+                    "name": "Invalid",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "shipping.status",
+            "name": "Shipping Status",
+            "type": "text",
+            "values": [
+                {
+                    "id": "to_be_agreed",
+                    "name": "To be agreed",
+                    "results": 0
+                },
+                {
+                    "id": "pending",
+                    "name": "Pending",
+                    "results": 0
+                },
+                {
+                    "id": "handling",
+                    "name": "Handling",
+                    "results": 0
+                },
+                {
+                    "id": "ready_to_ship",
+                    "name": "Ready to ship",
+                    "results": 0
+                },
+                {
+                    "id": "shipped",
+                    "name": "Shipped",
+                    "results": 0
+                },
+                {
+                    "id": "delivered",
+                    "name": "Delivered",
+                    "results": 0
+                },
+                {
+                    "id": "not_delivered",
+                    "name": "Not delivered",
+                    "results": 0
+                },
+                {
+                    "id": "not_verified",
+                    "name": "Not verified",
+                    "results": 0
+                },
+                {
+                    "id": "cancelled",
+                    "name": "Cancelled",
+                    "results": 0
+                },
+                {
+                    "id": "closed",
+                    "name": "Closed",
+                    "results": 0
+                },
+                {
+                    "id": "error",
+                    "name": "Error",
+                    "results": 0
+                },
+                {
+                    "id": "active",
+                    "name": "Active",
+                    "results": 0
+                },
+                {
+                    "id": "not_specified",
+                    "name": "Not specified",
+                    "results": 0
+                },
+                {
+                    "id": "stale_ready_to_ship",
+                    "name": "Stale ready to ship",
+                    "results": 0
+                },
+                {
+                    "id": "stale_shipped",
+                    "name": "Stale shipped",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "feedback.sale.rating",
+            "name": "Feedback rating",
+            "type": "text",
+            "values": [
+                {
+                    "id": "positive",
+                    "name": "Positive",
+                    "results": 1
+                },
+                {
+                    "id": "negative",
+                    "name": "Negative",
+                    "results": 0
+                },
+                {
+                    "id": "neutral",
+                    "name": "Neutral",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "feedback.purchase.rating",
+            "name": "Feedback rating",
+            "type": "text",
+            "values": [
+                {
+                    "id": "negative",
+                    "name": "Negative",
+                    "results": 0
+                },
+                {
+                    "id": "neutral",
+                    "name": "Neutral",
+                    "results": 0
+                },
+                {
+                    "id": "positive",
+                    "name": "Positive",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "feedback.sale.fulfilled",
+            "name": "Feedback sale fulfilled",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "T",
+                    "name": "Transaction actually happened",
+                    "results": 1
+                },
+                {
+                    "id": "F",
+                    "name": "Transaction was aborted",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "feedback.purchase.fulfilled",
+            "name": "Feedback purchase fulfilled",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "F",
+                    "name": "Transaction was aborted",
+                    "results": 0
+                },
+                {
+                    "id": "T",
+                    "name": "Transaction actually happened",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "shipping.service_id",
+            "name": "Shipping Service",
+            "type": "long",
+            "values": [
+                {
+                    "id": "811",
+                    "name": "FedEx a sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "1141",
+                    "name": "FedEx First Overnight",
+                    "results": 0
+                },
+                {
+                    "id": "181",
+                    "name": "Express",
+                    "results": 0
+                },
+                {
+                    "id": "1071",
+                    "name": "Estafeta Est\u00e1ndar Domicilio",
+                    "results": 0
+                },
+                {
+                    "id": "212",
+                    "name": "Express",
+                    "results": 0
+                },
+                {
+                    "id": "1011",
+                    "name": "Colecta Retiro Sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "1081",
+                    "name": "Estafeta Est\u00e1ndar Sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "721",
+                    "name": "CBT MA",
+                    "results": 0
+                },
+                {
+                    "id": "1151",
+                    "name": "FedEx Priority Overnight",
+                    "results": 0
+                },
+                {
+                    "id": "511",
+                    "name": "FedEx Express Saver",
+                    "results": 0
+                },
+                {
+                    "id": "971",
+                    "name": "Mercadoenvios Normal",
+                    "results": 0
+                },
+                {
+                    "id": "521",
+                    "name": "FedEx Standard Overnight",
+                    "results": 0
+                },
+                {
+                    "id": "331",
+                    "name": "CBT DHL",
+                    "results": 0
+                },
+                {
+                    "id": "171",
+                    "name": "Est\u00e1ndar",
+                    "results": 0
+                },
+                {
+                    "id": "191",
+                    "name": "CBT",
+                    "results": 0
+                },
+                {
+                    "id": "771",
+                    "name": "UPS Express",
+                    "results": 0
+                },
+                {
+                    "id": "1001",
+                    "name": "Colecta Retiro Sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "281",
+                    "name": "CBT DDU",
+                    "results": 0
+                },
+                {
+                    "id": "731",
+                    "name": "CBT",
+                    "results": 0
+                },
+                {
+                    "id": "791",
+                    "name": "DHL  a sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "981",
+                    "name": "Mercadoenvios Express",
+                    "results": 0
+                },
+                {
+                    "id": "1161",
+                    "name": "FedEx Standard Overnight a Sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "781",
+                    "name": "UPS a sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "1021",
+                    "name": "Colecta Retiro Sucursal",
+                    "results": 0
+                },
+                {
+                    "id": "601",
+                    "name": "99minutos",
+                    "results": 0
+                },
+                {
+                    "id": "154611",
+                    "name": "CBT CustomShipping",
+                    "results": 0
+                },
+                {
+                    "id": "158182",
+                    "name": "MEL Distribution",
+                    "results": 0
+                },
+                {
+                    "id": "158661",
+                    "name": "MEL Middle Mile",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "shipping.substatus",
+            "name": "Shipping Substatus",
+            "type": "text",
+            "values": [
+                {
+                    "id": "cost_exceeded",
+                    "name": "Cost exceeded",
+                    "results": 0
+                },
+                {
+                    "id": "under_review",
+                    "name": "Under review (e.g. fraud)",
+                    "results": 0
+                },
+                {
+                    "id": "reviewed",
+                    "name": "Reviewed",
+                    "results": 0
+                },
+                {
+                    "id": "fraudulent",
+                    "name": "Cancelled Fraudulent",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_payment",
+                    "name": "Waiting for shipping payment to be accredited",
+                    "results": 0
+                },
+                {
+                    "id": "shipment_paid",
+                    "name": "Shipping cost has been paid",
+                    "results": 0
+                },
+                {
+                    "id": "regenerating",
+                    "name": "Regenerating",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_label_generation",
+                    "name": "Waiting for label generation",
+                    "results": 0
+                },
+                {
+                    "id": "invoice_pending",
+                    "name": "Invoice pending",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_return_confirmation",
+                    "name": "Waiting for return confirmation",
+                    "results": 0
+                },
+                {
+                    "id": "return_confirmed",
+                    "name": "Return Confirmed",
+                    "results": 0
+                },
+                {
+                    "id": "manufacturing",
+                    "name": "Manufacturing",
+                    "results": 0
+                },
+                {
+                    "id": "ready_to_print",
+                    "name": "Ready to print",
+                    "results": 0
+                },
+                {
+                    "id": "printed",
+                    "name": "Printed",
+                    "results": 0
+                },
+                {
+                    "id": "in_pickup_list",
+                    "name": "In pikcup list",
+                    "results": 0
+                },
+                {
+                    "id": "ready_for_pkl_creation",
+                    "name": "Ready for pkl creation",
+                    "results": 0
+                },
+                {
+                    "id": "ready_for_pickup",
+                    "name": "Ready for pickup",
+                    "results": 0
+                },
+                {
+                    "id": "ready_for_dropoff",
+                    "name": "Ready for drop off",
+                    "results": 0
+                },
+                {
+                    "id": "picked_up",
+                    "name": "Picked up",
+                    "results": 0
+                },
+                {
+                    "id": "stale",
+                    "name": "Stale shipped",
+                    "results": 0
+                },
+                {
+                    "id": "dropped_off",
+                    "name": "Dropped off in Melipoint",
+                    "results": 0
+                },
+                {
+                    "id": "in_hub",
+                    "name": "In hub",
+                    "results": 0
+                },
+                {
+                    "id": "measures_ready",
+                    "name": "Measures and weight ready",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_last_mile_authorization",
+                    "name": "Waiting for last mile authorization",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_carrier_authorization",
+                    "name": "Waiting for carrier authorization",
+                    "results": 0
+                },
+                {
+                    "id": "authorized_by_carrier",
+                    "name": "Authorized by carrier",
+                    "results": 0
+                },
+                {
+                    "id": "in_packing_list",
+                    "name": "In packing list",
+                    "results": 0
+                },
+                {
+                    "id": "in_plp",
+                    "name": "In PLP",
+                    "results": 0
+                },
+                {
+                    "id": "in_warehouse",
+                    "name": "In Warehouse",
+                    "results": 0
+                },
+                {
+                    "id": "ready_to_pack",
+                    "name": "Ready to Pack",
+                    "results": 0
+                },
+                {
+                    "id": "delayed",
+                    "name": "Delayed",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_withdrawal",
+                    "name": "Waiting for withdrawal",
+                    "results": 0
+                },
+                {
+                    "id": "contact_with_carrier_required",
+                    "name": "Contact with carrier required",
+                    "results": 0
+                },
+                {
+                    "id": "receiver_absent",
+                    "name": "Receiver absent",
+                    "results": 0
+                },
+                {
+                    "id": "reclaimed",
+                    "name": "Reclaimed",
+                    "results": 0
+                },
+                {
+                    "id": "not_localized",
+                    "name": "Not localized",
+                    "results": 0
+                },
+                {
+                    "id": "forwarded_to_third",
+                    "name": "Forwarded to third party",
+                    "results": 0
+                },
+                {
+                    "id": "soon_deliver",
+                    "name": "Soon deliver",
+                    "results": 0
+                },
+                {
+                    "id": "refused_delivery",
+                    "name": "Delivery refused",
+                    "results": 0
+                },
+                {
+                    "id": "bad_address",
+                    "name": "Bad address",
+                    "results": 0
+                },
+                {
+                    "id": "negative_feedback",
+                    "name": "Stale shipped forced to not delivered due to negative feedback by buyer",
+                    "results": 0
+                },
+                {
+                    "id": "need_review",
+                    "name": "Need to review carrier status to understand what happened",
+                    "results": 0
+                },
+                {
+                    "id": "operator_intervention",
+                    "name": "Need operator intervention",
+                    "results": 0
+                },
+                {
+                    "id": "claimed_me",
+                    "name": "Not delivered that was claimed by the receiver",
+                    "results": 0
+                },
+                {
+                    "id": "retained",
+                    "name": "Retained",
+                    "results": 0
+                },
+                {
+                    "id": "delivery_failed",
+                    "name": "Delivery failed",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_for_confirmation",
+                    "name": "Waiting for buyer confirmation",
+                    "results": 0
+                },
+                {
+                    "id": "damaged",
+                    "name": "Package damaged in hub",
+                    "results": 0
+                },
+                {
+                    "id": "fulfilled_feedback",
+                    "name": "Fulfilled by buyer feedback",
+                    "results": 0
+                },
+                {
+                    "id": "no_action_taken",
+                    "name": "No action taken by buyer",
+                    "results": 0
+                },
+                {
+                    "id": "double_refund",
+                    "name": "Double Refund",
+                    "results": 0
+                },
+                {
+                    "id": "returning_to_sender",
+                    "name": "Returning to sender",
+                    "results": 0
+                },
+                {
+                    "id": "stolen",
+                    "name": "Stolen",
+                    "results": 0
+                },
+                {
+                    "id": "returned",
+                    "name": "Returned",
+                    "results": 0
+                },
+                {
+                    "id": "confiscated",
+                    "name": "confiscated",
+                    "results": 0
+                },
+                {
+                    "id": "to_review",
+                    "name": "Closed shipment",
+                    "results": 0
+                },
+                {
+                    "id": "destroyed",
+                    "name": "Destroyed",
+                    "results": 0
+                },
+                {
+                    "id": "lost",
+                    "name": "Package lost",
+                    "results": 0
+                },
+                {
+                    "id": "cancelled_measurement_exceeded",
+                    "name": "Shipment cancelled for measurement exceeded",
+                    "results": 0
+                },
+                {
+                    "id": "returned_to_hub",
+                    "name": "Returned to hub",
+                    "results": 0
+                },
+                {
+                    "id": "returned_to_agency",
+                    "name": "Returned to agency",
+                    "results": 0
+                },
+                {
+                    "id": "picked_up_for_return",
+                    "name": "Picked up for return",
+                    "results": 0
+                },
+                {
+                    "id": "returning_to_warehouse",
+                    "name": "Returning to Warehouse",
+                    "results": 0
+                },
+                {
+                    "id": "returned_to_warehouse",
+                    "name": "Returned to Warehouse",
+                    "results": 0
+                },
+                {
+                    "id": "recovered",
+                    "name": "Recovered",
+                    "results": 0
+                },
+                {
+                    "id": "label_expired",
+                    "name": "Label Expired",
+                    "results": 0
+                },
+                {
+                    "id": "cancelled_manually",
+                    "name": "Cancelled Manually",
+                    "results": 0
+                },
+                {
+                    "id": "return_expired",
+                    "name": "Return expired",
+                    "results": 0
+                },
+                {
+                    "id": "return_session_expired",
+                    "name": "Return session expired",
+                    "results": 0
+                },
+                {
+                    "id": "unfulfillable",
+                    "name": "Unfulfillable",
+                    "results": 0
+                },
+                {
+                    "id": "closed_by_user",
+                    "name": "User changes the type of shipping and cancels the previous",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "feedback.status",
+            "name": "Feedback Status",
+            "type": "text",
+            "values": [
+                {
+                    "id": "pending",
+                    "name": "Waiting for your feedback",
+                    "results": 0
+                },
+                {
+                    "id": "waiting_buyer",
+                    "name": "Waiting for Buyer's feedback",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "tags",
+            "name": "Tags",
+            "type": "text",
+            "values": [
+                {
+                    "id": "delivered",
+                    "name": "Delivered",
+                    "results": 1
+                },
+                {
+                    "id": "pack_order",
+                    "name": "Cart Order",
+                    "results": 1
+                },
+                {
+                    "id": "paid",
+                    "name": "Order Paid",
+                    "results": 1
+                },
+                {
+                    "id": "not_delivered",
+                    "name": "Not Delivered",
+                    "results": 0
+                },
+                {
+                    "id": "not_paid",
+                    "name": "Order Not Paid",
+                    "results": 0
+                },
+                {
+                    "id": "claim_closed",
+                    "name": "Claim Closed",
+                    "results": 0
+                },
+                {
+                    "id": "claim_opened",
+                    "name": "Claim Opened",
+                    "results": 0
+                },
+                {
+                    "id": "not_processed",
+                    "name": "Not processed order",
+                    "results": 0
+                },
+                {
+                    "id": "processed",
+                    "name": "Processed order",
+                    "results": 0
+                },
+                {
+                    "id": "returned",
+                    "name": "Returned order",
+                    "results": 0
+                },
+                {
+                    "id": "reservation",
+                    "name": "Reservation Order",
+                    "results": 0
+                },
+                {
+                    "id": "contract",
+                    "name": "Service Contract order",
+                    "results": 0
+                },
+                {
+                    "id": "mshops",
+                    "name": "Order from Mercado Shops",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "mediations.status",
+            "name": "Mediation Status",
+            "type": "text",
+            "values": [
+                {
+                    "id": "claim_opened",
+                    "name": "Claim opened",
+                    "results": 0
+                },
+                {
+                    "id": "claim_closed",
+                    "name": "Claim closed",
+                    "results": 0
+                },
+                {
+                    "id": "dispute_opened",
+                    "name": "Dispute opened",
+                    "results": 0
+                },
+                {
+                    "id": "dispute_closed",
+                    "name": "Dispute closed",
+                    "results": 0
+                },
+                {
+                    "id": "seller_dispute_opened",
+                    "name": "Seller dispute opened",
+                    "results": 0
+                },
+                {
+                    "id": "seller_dispute_closed",
+                    "name": "Seller dispute closed",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "order_request.return",
+            "name": "Order-Request Return status",
+            "type": "text",
+            "values": [
+                {
+                    "id": "required",
+                    "name": "Return required",
+                    "results": 0
+                },
+                {
+                    "id": "cancelled",
+                    "name": "Return cancelled",
+                    "results": 0
+                },
+                {
+                    "id": "expired",
+                    "name": "Return expired",
+                    "results": 0
+                },
+                {
+                    "id": "accepted",
+                    "name": "Return accepted",
+                    "results": 0
+                },
+                {
+                    "id": "partially_paid",
+                    "name": "Return partially paid",
+                    "results": 0
+                },
+                {
+                    "id": "paid",
+                    "name": "Return paid",
+                    "results": 0
+                },
+                {
+                    "id": "failed",
+                    "name": "Return failed",
+                    "results": 0
+                },
+                {
+                    "id": "closed",
+                    "name": "Return closed",
+                    "results": 0
+                }
+            ]
+        },
+        {
+            "id": "order_request.change",
+            "name": "Order-Request Change status",
+            "type": "text",
+            "values": [
+                {
+                    "id": "required",
+                    "name": "Change required",
+                    "results": 0
+                },
+                {
+                    "id": "cancelled",
+                    "name": "Change cancelled",
+                    "results": 0
+                },
+                {
+                    "id": "expired",
+                    "name": "Change expired",
+                    "results": 0
+                },
+                {
+                    "id": "accepted",
+                    "name": "Change accepted",
+                    "results": 0
+                },
+                {
+                    "id": "partially_paid",
+                    "name": "Change partially paid",
+                    "results": 0
+                },
+                {
+                    "id": "paid",
+                    "name": "Change paid",
+                    "results": 0
+                },
+                {
+                    "id": "failed",
+                    "name": "Change failed",
+                    "results": 0
+                },
+                {
+                    "id": "closed",
+                    "name": "Change closed",
+                    "results": 0
+                }
+            ]
+        }
+    ],
+    "available_sorts": [
+        {
+            "id": "date_desc",
+            "name": "Date descending"
+        }
+    ],
+    "display": "complete",
+    "filters": [],
+    "paging": {
+        "limit": 50,
+        "offset": 0,
+        "total": 1
+    },
+    "query": "2004657355",
+    "results": [
+        {
+            "buyer": {
+                "alternative_phone": {
+                    "area_code": "",
+                    "extension": "",
+                    "number": ""
+                },
+                "billing_info": {
+                    "doc_number": null,
+                    "doc_type": null
+                },
+                "email": "jvejar.bgg1mc+2-ogiydanbwgu3tgojs@mail.mercadolibre.com.mx",
+                "first_name": "Jesus",
+                "id": 136485136,
+                "last_name": "Vejar",
+                "nickname": "VEJARJESUS",
+                "phone": {
+                    "area_code": " ",
+                    "extension": "",
+                    "number": "0446629376413",
+                    "verified": false
+                }
+            },
+            "comments": null,
+            "currency_id": "MXN",
+            "date_closed": "2019-05-02T16:42:45.000-04:00",
+            "date_created": "2019-05-02T16:42:41.000-04:00",
+            "date_last_updated": "2019-05-06T17:46:54.621Z",
+            "expiration_date": "2019-05-30T16:42:45.000-04:00",
+            "feedback": {
+                "purchase": null,
+                "sale": {
+                    "date_created": "2019-05-06T17:46:34.000-04:00",
+                    "fulfilled": true,
+                    "id": 9040963807461,
+                    "rating": "positive",
+                    "status": "hidden"
+                }
+            },
+            "hidden_for_seller": false,
+            "id": 2004657355,
+            "mediations": [],
+            "order_items": [
+                {
+                    "base_currency_id": null,
+                    "base_exchange_rate": null,
+                    "currency_id": "MXN",
+                    "differential_pricing_id": null,
+                    "full_unit_price": 968,
+                    "item": {
+                        "category_id": "MLM4852",
+                        "condition": "new",
+                        "id": "MLM547051485",
+                        "seller_custom_field": "STPT600-STA",
+                        "seller_sku": "STPT600-STA",
+                        "title": "Sopladora Aspiradora Stanley 600w 16000rpm Con Bolsa Stanley",
+                        "variation_attributes": [
+                            {
+                                "id": "VOLTAGE",
+                                "name": "Voltaje",
+                                "value_id": "198814",
+                                "value_name": "110V"
+                            }
+                        ],
+                        "variation_id": 23649645813,
+                        "warranty": "CON GARANTIA DE 3 MESES CONTRA DEF DE FABRICACION"
+                    },
+                    "listing_type_id": "gold_special",
+                    "manufacturing_days": null,
+                    "quantity": 1,
+                    "sale_fee": 101.97,
+                    "unit_price": 871.54
+                }
+            ],
+            "order_request": {
+                "change": null,
+                "return": null
+            },
+            "payments": [
+                {
+                    "activation_uri": null,
+                    "atm_transfer_reference": {
+                        "company_id": null,
+                        "transaction_id": null
+                    },
+                    "authorization_code": null,
+                    "available_actions": [
+                        "refund"
+                    ],
+                    "card_id": null,
+                    "collector": {
+                        "id": 25523702
+                    },
+                    "coupon_amount": 0,
+                    "coupon_id": null,
+                    "currency_id": "MXN",
+                    "date_approved": "2019-05-02T16:42:44.000-04:00",
+                    "date_created": "2019-05-02T16:42:44.000-04:00",
+                    "date_last_modified": "2019-05-02T16:42:44.000-04:00",
+                    "deferred_period": null,
+                    "id": 4729975342,
+                    "installment_amount": null,
+                    "installments": 1,
+                    "issuer_id": null,
+                    "marketplace_fee": 101.97,
+                    "operation_type": "regular_payment",
+                    "order_id": 2004657355,
+                    "overpaid_amount": 0,
+                    "payer_id": 136485136,
+                    "payment_method_id": "account_money",
+                    "payment_type": "account_money",
+                    "reason": "Sopladora Aspiradora Stanley 600w 16000rpm Con Bolsa Stanley",
+                    "shipping_cost": 0,
+                    "status": "approved",
+                    "status_code": null,
+                    "status_detail": "accredited",
+                    "total_paid_amount": 871.54,
+                    "transaction_amount": 871.54,
+                    "transaction_order_id": null
+                }
+            ],
+            "pickup_id": null,
+            "seller": {
+                "alternative_phone": {
+                    "area_code": "",
+                    "extension": "",
+                    "number": "044 55 67027486"
+                },
+                "email": "lcheski.8f8b99+2-ogiydanbwgu3tgobr@mail.mercadolibre.com.mx",
+                "first_name": "SOMOS REYES",
+                "id": 25523702,
+                "last_name": "SA DE CV",
+                "nickname": "SOMOS-REYES",
+                "phone": {
+                    "area_code": null,
+                    "extension": "",
+                    "number": "55 683 098 28",
+                    "verified": false
+                }
+            },
+            "shipping": {
+                "cost": null,
+                "currency_id": null,
+                "date_created": null,
+                "date_first_printed": null,
+                "id": 27952535692,
+                "picking_type": null,
+                "sender_id": null,
+                "service_id": null,
+                "shipment_type": null,
+                "shipping_mode": null,
+                "status": null,
+                "substatus": null
+            },
+            "status": "paid",
+            "status_detail": {
+                "code": "manually_selected",
+                "description": null
+            },
+            "tags": [
+                "pack_order",
+                "delivered",
+                "paid"
+            ],
+            "total_amount": 871.54
+        }
+    ],
+    "sort": {
+        "id": "date_asc",
+        "name": "Date ascending"
+    }
+}
+{'id_order': 2004657355, 'fulfilled': True, 'order_status': 'paid', 'seller_nickname': 'SOMOS-REYES', 'buyer_name': 'Jesus Vejar', 'buyer_email': 'jvejar.bgg1mc+2-ogiydanbwgu3tgojs@mail.mercadolibre.com.mx', 'partner_id': 24137, 'items': {'STPT600-STA': 81328}}

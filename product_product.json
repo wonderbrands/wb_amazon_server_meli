@@ -1,0 +1,266 @@
+[
+    {
+        "__last_update": "2019-07-25 13:56:28",
+        "accessory_product_ids": [],
+        "active": true,
+        "activity_date_deadline": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "alternative_product_ids": [],
+        "attribute_line_ids": [],
+        "attribute_value_ids": [],
+        "available_threshold": 0.0,
+        "barcode": "6941057402246",
+        "cart_qty": 0,
+        "categ_id": [
+            97,
+            "Intex"
+        ],
+        "code": "57537-INTEX",
+        "color": 0,
+        "company_id": [
+            1,
+            "SOMOS REYES SA DE CV"
+        ],
+        "cost_currency_id": [
+            33,
+            "MXN"
+        ],
+        "cost_method": "standard",
+        "costo_anterior": 0.0,
+        "costo_dolares": 0.0,
+        "create_date": "2019-04-09 21:41:34",
+        "create_uid": [
+            19,
+            "Nicolas"
+        ],
+        "currency_id": [
+            33,
+            "MXN"
+        ],
+        "custom_message": "",
+        "default_code": "57537-INTEX",
+        "description": false,
+        "description_picking": false,
+        "description_pickingin": false,
+        "description_pickingout": false,
+        "description_purchase": false,
+        "description_sale": false,
+        "display_name": "[57537-INTEX]  Avion Inflable Con Pistola De Agua  52 x 51 x 36 p Gris 57537Np Intex",
+        "expense_policy": "no",
+        "hide_expense_policy": true,
+        "hs_code": false,
+        "id": 90523,
+        "image": "",
+        "image_variant": false,
+        "incoming_qty": 0.0,
+        "inventory_availability": "never",
+        "invoice_policy": "order",
+        "is_kit": false,
+        "is_product_variant": true,
+        "is_published": true,
+        "is_seo_optimized": false,
+        "item_ids": [],
+        "l10n_mx_edi_code_sat_id": [
+            48737,
+            "60141000 Juguetes"
+        ],
+        "landed_cost_ok": false,
+        "list_price": 249.14,
+        "location_id": false,
+        "lst_price": 249.14000000000001,
+        "message_attachment_count": 0,
+        "message_channel_ids": [],
+        "message_follower_ids": [
+            601
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_ids": [
+            747
+        ],
+        "message_is_follower": false,
+        "message_main_attachment_id": false,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            33590
+        ],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "name": " Avion Inflable Con Pistola De Agua  52 x 51 x 36 p Gris 57537Np Intex",
+        "nbr_reordering_rules": 0,
+        "optional_product_ids": [],
+        "orderpoint_ids": [],
+        "outgoing_qty": 0.0,
+        "packaging_ids": [],
+        "partner_ref": "[57537-INTEX]  Avion Inflable Con Pistola De Agua  52 x 51 x 36 p Gris 57537Np Intex",
+        "precio_con_iva": 289.0,
+        "price": 0.0,
+        "price_extra": 0.0,
+        "pricelist_id": false,
+        "pricelist_item_ids": [],
+        "product_image_ids": [],
+        "product_template_attribute_value_ids": [],
+        "product_tmpl_id": [
+            88965,
+            "[57537-INTEX]  Avion Inflable Con Pistola De Agua  52 x 51 x 36 p Gris 57537Np Intex"
+        ],
+        "product_variant_count": 1,
+        "product_variant_id": [
+            90523,
+            "[57537-INTEX]  Avion Inflable Con Pistola De Agua  52 x 51 x 36 p Gris 57537Np Intex"
+        ],
+        "product_variant_ids": [
+            90523
+        ],
+        "property_account_creditor_price_difference": false,
+        "property_account_expense_id": false,
+        "property_account_income_id": false,
+        "property_cost_method": false,
+        "property_stock_account_input": false,
+        "property_stock_account_output": false,
+        "property_stock_inventory": [
+            5,
+            "Virtual Locations/Inventory adjustment"
+        ],
+        "property_stock_production": [
+            7,
+            "Virtual Locations/Production"
+        ],
+        "property_valuation": false,
+        "public_categ_ids": [
+            1
+        ],
+        "purchase_line_warn": "no-message",
+        "purchase_line_warn_msg": false,
+        "purchase_method": "receive",
+        "purchase_ok": true,
+        "purchased_product_qty": 0.0,
+        "qty_at_date": 59.0,
+        "qty_available": 59.0,
+        "rating_count": 0,
+        "rating_ids": [],
+        "rating_last_feedback": false,
+        "rating_last_image": false,
+        "rating_last_value": 0.0,
+        "rental": false,
+        "reordering_max_qty": 0.0,
+        "reordering_min_qty": 0.0,
+        "responsible_id": [
+            7,
+            "Jes\u00fas Segovia"
+        ],
+        "route_from_categ_ids": [],
+        "route_ids": [
+            5
+        ],
+        "sale_delay": 0.0,
+        "sale_line_warn": "no-message",
+        "sale_line_warn_msg": false,
+        "sale_ok": true,
+        "sales_count": 0.0,
+        "seller_ids": [
+            32883
+        ],
+        "sequence": 1,
+        "service_to_purchase": false,
+        "service_type": "manual",
+        "split_method": "equal",
+        "standard_price": 139.66,
+        "status_producto": false,
+        "stock_amazon": 59,
+        "stock_exclusivas": 0,
+        "stock_fifo_manual_move_ids": [],
+        "stock_fifo_real_time_aml_ids": [],
+        "stock_linio": 59,
+        "stock_mercadolibre": 59,
+        "stock_move_ids": [
+            1423,
+            2972
+        ],
+        "stock_quant_ids": [
+            1583,
+            1584,
+            4501
+        ],
+        "stock_real": 59,
+        "stock_urrea": 0,
+        "stock_value": 8239.94,
+        "stock_value_currency_id": [
+            33,
+            "MXN"
+        ],
+        "sub_product_line_ids": [],
+        "supplier_taxes_id": [
+            10
+        ],
+        "taxes_id": [
+            2
+        ],
+        "tracking": "none",
+        "txt_binary": "XlhBCl5DRkEsNDAKXkZPMTUsNjBeRkQ1NzUzNy1JTlRFWF5GUwpeQ0ZBLDMwCl5GTzE1LDEwMF5G\nRCBBdmlvbiBJbmZsYWJsZSBDb24gUGlzdG9sYSBEZSBBZ3VhICA1MiB4IDUxIHggMzYgcCBHcmlz\nIDU3NTM3TnAgSW50ZXheRlMKXkZPMTUsMTQwXkZEUEFTSUxMTzo2LTEzTklWRUw6M1BBUkVEOkZh\nbHNlQ0FKQTpGYWxzZV5GUwpeRk8xNSwxODBeRkQyMDE5LTA4LTIyIDIyOjA5OjMxXkZTCl5CWTQs\nMywxMDAKXkZPNDUsMjQwXkJDXkZENjk0MTA1NzQwMjI0Nl5GUwpeWHo=\n",
+        "txt_filename": "57537-INTEX.zpl",
+        "type": "product",
+        "ubicacion_caja": false,
+        "ubicacion_nivel": "3",
+        "ubicacion_pared": false,
+        "ubicacion_pasillo": "6-13",
+        "uom_id": [
+            1,
+            "Pza(s)"
+        ],
+        "uom_name": "Pza(s)",
+        "uom_po_id": [
+            1,
+            "Pza(s)"
+        ],
+        "valid_archived_variant_ids": [],
+        "valid_existing_variant_ids": [
+            90523
+        ],
+        "valid_product_attribute_ids": [],
+        "valid_product_attribute_value_ids": [],
+        "valid_product_attribute_value_wnva_ids": [],
+        "valid_product_attribute_wnva_ids": [],
+        "valid_product_template_attribute_line_ids": [],
+        "valid_product_template_attribute_line_wnva_ids": [],
+        "valuation": "manual_periodic",
+        "variant_seller_ids": [
+            32883
+        ],
+        "virtual_available": 59.0,
+        "volume": 0.0,
+        "warehouse_id": false,
+        "website_description": "<h4>Avion Inflable Con Pistola De Agua  52x51x36 57537Np Intex<br><br>- Avi\u00f3n hinchable Intex.<br>- La base es ancha para una mayor sujeci\u00f3n y con asa grande para una mayor estabilidad en el agua.<br>- Lleva incorporada una pistola de agua.<br>- Incluye un kit de parches.</h4>",
+        "website_id": false,
+        "website_message_ids": [],
+        "website_meta_description": false,
+        "website_meta_keywords": false,
+        "website_meta_og_img": false,
+        "website_meta_title": false,
+        "website_price": 249.14000000000001,
+        "website_price_difference": false,
+        "website_public_price": 249.14000000000001,
+        "website_published": true,
+        "website_sequence": 10,
+        "website_size_x": 1,
+        "website_size_y": 1,
+        "website_style_ids": [],
+        "website_url": "/shop/product/88965",
+        "weight": 0.0,
+        "weight_uom_id": [
+            3,
+            "kg"
+        ],
+        "weight_uom_name": "kg",
+        "write_date": "2019-07-25 13:56:28",
+        "write_uid": [
+            7,
+            "Jes\u00fas Segovia"
+        ]
+    }
+]

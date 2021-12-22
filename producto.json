@@ -1,0 +1,33 @@
+[
+    {
+        "default_code": "153822",
+        "id": 38441,
+        "list_price": 278.45,
+        "name": "Hielera 5 Cuartos Azul Personal 5205-758 Coleman",
+        "stock_quant_ids": [
+            9389,
+            21895,
+            26098,
+            29137,
+            96815,
+            154686,
+            163708,
+            169791,
+            171409,
+            246698,
+            284445
+        ],
+        "virtual_available": 65.0
+    }
+]
+Virtual Locations/Inventory adjustment 11.0 0.0
+Partner Locations/Customers 736.0 0.0
+LINIO/Stock 7.0 1.0
+Partner Locations/Vendors -1497.0 0.0
+MELI/Stock 538.0 538.0
+ONSIT/Stock 50.0 0.0
+AG/Output 7.0 6.0
+AMAZO/Stock 94.0 94.0
+VP/Stock 1.0 0.0
+AG/Stock 51.0 20.0
+AG/Stock/Zona A/P016-R03-N1 2.0 0.0
